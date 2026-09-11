@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Nur Pest Control Services - Professional residential and commercial pest control services.">
+<title>Nur Pest Control Services | Professional Pest Control</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="container nav">
+    <a class="logo" href="#home"><span>NP</span> Nur Pest Control Services</a>
+    <button class="menu" onclick="toggleMenu()">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
+      <a href="#why">Why Us</a><a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="container hero-content">
+    <div>
+      <p class="eyebrow">PROFESSIONAL • RELIABLE • SAFE</p>
+      <h1>A Pest-Free Home Starts With <span>Nur Pest Control</span></h1>
+      <p class="lead">Effective pest control solutions for homes, offices, restaurants, factories and commercial properties.</p>
+      <div class="actions">
+        <a class="btn primary" href="tel:+8801714272860">Call Now</a>
+        <a class="btn whatsapp" href="https://wa.me/8801714272860" target="_blank">WhatsApp Us</a>
+      </div>
+      <div class="trust"><b>✓</b> Professional Service &nbsp; <b>✓</b> Fast Response &nbsp; <b>✓</b> Customer Focused</div>
+    </div>
+  </div>
+</section>
+
+<section class="stats"><div class="container stat-grid">
+  <div><strong>24/7</strong><span>Booking Support</span></div>
+  <div><strong>100%</strong><span>Customer Focused</span></div>
+  <div><strong>Home + Business</strong><span>Service Coverage</span></div>
+</div></section>
+
+<section id="about" class="section"><div class="container two-col">
+  <div><p class="eyebrow">ABOUT US</p><h2>Protecting your space from unwanted pests.</h2>
+  <p>Nur Pest Control Services provides professional pest management solutions designed to keep residential and commercial spaces clean, comfortable and protected.</p>
+  <p>We focus on careful inspection, targeted treatment and practical prevention advice.</p></div>
+  <div class="card checklist"><h3>Our Commitment</h3>
+    <p>✓ Careful inspection</p><p>✓ Targeted treatment</p><p>✓ Safety-conscious service</p><p>✓ Clear communication</p><p>✓ Follow-up support</p>
+  </div>
+</div></section>
+
+<section id="services" class="section light"><div class="container">
+  <p class="eyebrow center">OUR SERVICES</p><h2 class="center">Complete Pest Control Solutions</h2>
+  <div class="cards">
+    <article class="service"><div class="icon">🪳</div><h3>Cockroach Control</h3><p>Targeted treatment for kitchens, homes, offices and commercial spaces.</p></article>
+    <article class="service"><div class="icon">🐜</div><h3>Ant Control</h3><p>Practical solutions to reduce ant activity and help prevent re-infestation.</p></article>
+    <article class="service"><div class="icon">🐀</div><h3>Rodent Control</h3><p>Inspection and control solutions for rats and mice in residential and commercial areas.</p></article>
+    <article class="service"><div class="icon">🦟</div><h3>Mosquito Control</h3><p>Property-focused mosquito management to improve outdoor comfort.</p></article>
+    <article class="service"><div class="icon">🪲</div><h3>Bed Bug Control</h3><p>Focused treatment plans for bedrooms, homes, hotels and other affected areas.</p></article>
+    <article class="service"><div class="icon">🏢</div><h3>Commercial Pest Control</h3><p>Scheduled pest management for offices, shops, restaurants, factories and businesses.</p></article>
+  </div>
+</div></section>
+
+<section id="why" class="section"><div class="container">
+  <p class="eyebrow center">WHY CHOOSE US</p><h2 class="center">Professional service you can count on.</h2>
+  <div class="features">
+    <div><span>01</span><h3>Professional Approach</h3><p>We assess the problem before recommending a suitable treatment.</p></div>
+    <div><span>02</span><h3>Fast Response</h3><p>Contact us to discuss your pest problem and arrange a service.</p></div>
+    <div><span>03</span><h3>Long-Term Prevention</h3><p>We share practical steps that can help reduce future pest activity.</p></div>
+  </div>
+</div></section>
+
+<section class="cta"><div class="container cta-inner"><div><p class="eyebrow">NEED PEST CONTROL?</p><h2>Get a quick service consultation.</h2></div><a class="btn primary" href="#contact">Book a Service</a></div></section>
+
+<section id="contact" class="section light"><div class="container two-col">
+  <div><p class="eyebrow">CONTACT US</p><h2>Request a Service</h2>
+    <p>Tell us what pest problem you have. We will contact you to discuss the service.</p>
+    <div class="contact-list">
+      <a href="tel:+8801714272860">📞 <b>01714-272860</b></a>
+      <a href="https://wa.me/8801714272860" target="_blank">💬 WhatsApp: <b>01714-272860</b></a>
+      <div>📍 <b>Chattogram, Bangladesh</b></div>
+    </div>
+  </div>
+  <form class="card form" onsubmit="sendWhatsApp(event)">
+    <input id="name" required placeholder="Your Name">
+    <input id="phone" required placeholder="Phone Number">
+    <select id="service" required><option value="">Select Service</option><option>Cockroach Control</option><option>Termite Control</option><option>Rodent Control</option><option>Mosquito Control</option><option>Bed Bug Control</option><option>Commercial Pest Control</option></select>
+    <textarea id="message" rows="5" placeholder="Tell us about your pest problem"></textarea>
+    <button class="btn primary" type="submit">Send Booking Request</button>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="container footer"><div><h3>Nur Pest Control Services</h3><p>Professional pest control for homes and businesses.</p></div><p>© <span id="year"></span> Nur Pest Control Services. All rights reserved.</p></div></footer>
+<script src="script.js"></script>
+</body>
+</html>
